@@ -1,3 +1,4 @@
+//Maximum sub array divide  and conquer method
 #include<iostream>
 using namespace std;
 
@@ -61,7 +62,7 @@ int main(){
     for(int i=0;i<n;i++)
         cin>>a[i];
     type result=fms(a,1,n);
-    cout<<":::::::::::::::\nLOW  ="<<result.low<<endl;
+    cout<<"\nLOW  ="<<result.low<<endl;
     cout<<"HIGH ="<<result.high<<endl;
     cout<<"SUM  ="<<result.sum<<endl;
 }
