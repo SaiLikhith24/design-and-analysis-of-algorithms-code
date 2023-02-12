@@ -59,7 +59,7 @@ int main(){
     int n;
     cout<<"Enter size ";cin>>n;
     cout<<"Ener array elements ";
-    for(int i=1;i<=n;i++)
+    for(int i=1;i<=n;i++)   //array index starts from 1
         cin>>a[i];
     type result=fms(a,1,n);
     cout<<"\nLOW  ="<<result.low<<endl;
