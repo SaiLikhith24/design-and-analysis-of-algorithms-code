@@ -45,7 +45,7 @@ void bucketsort(double a[],int n){
     for(int i=0;i<n;i++)
         b[i]=NULL;
     for(int i=0;i<n;i++){
-        int temp=10*a[i];
+        int temp=n*a[i];
         if(b[temp]==NULL){
             b[temp]=insertnode(a[i]);
         }
